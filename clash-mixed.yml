@@ -15,6 +15,30 @@ proxy-providers:
     type: http
     path: ./proxy_provider/p4.yaml
     url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250513.yaml
+  5.provider5:
+    type: http
+    path: ./proxy_provider/p5.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250514.yaml
+  6.provider6:
+    type: http
+    path: ./proxy_provider/p6.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250515.yaml
+  7.provider7:
+    type: http
+    path: ./proxy_provider/p7.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250516.yaml
+  8.provider8:
+    type: http
+    path: ./proxy_provider/p8.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250517.yaml
+  9.provider9:
+    type: http
+    path: ./proxy_provider/p9.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250518.yaml
+  10.provider10:
+    type: http
+    path: ./proxy_provider/p10.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/05/0-20250519.yaml
 
 # Global Config
 mixed-port: 7897
