@@ -2,27 +2,27 @@ proxy-providers:
   1.provider1:
     type: http
     path: ./proxy_provider/p1.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251201.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/01/0-20260101.yaml
   2.provider2:
     type: http
     path: ./proxy_provider/p2.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251206.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/01/0-20260106.yaml
   3.provider3:
     type: http
     path: ./proxy_provider/p3.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-202512011.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/01/0-20260111.yaml
   4.provider4:
     type: http
     path: ./proxy_provider/p4.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251216.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/01/0-20260116.yaml
   5.provider5:
     type: http
     path: ./proxy_provider/p5.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251221.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/01/0-20260121.yaml
   6.provider6:
     type: http
     path: ./proxy_provider/p6.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251226.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/01/0-20260126.yaml
  
 # Global Config
 mixed-port: 7897
