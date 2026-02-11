@@ -2,28 +2,29 @@ proxy-providers:
   1.provider1:
     type: http
     path: ./proxy_provider/p1.yaml
+    # 订阅 链接
     url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251201.yaml
+    override:
+      additional-prefix: "p1 |"
   2.provider2:
     type: http
     path: ./proxy_provider/p2.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251206.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251208.yaml
+    override:
+      additional-prefix: "p2 |"
   3.provider3:
     type: http
     path: ./proxy_provider/p3.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251211.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251216.yaml
+    override:
+      additional-prefix: "p3 |"
   4.provider4:
     type: http
     path: ./proxy_provider/p4.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251216.yaml
-  5.provider5:
-    type: http
-    path: ./proxy_provider/p5.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251221.yaml
-  6.provider6:
-    type: http
-    path: ./proxy_provider/p6.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251226.yaml
- 
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2025/12/0-20251224.yaml
+    override:
+      additional-prefix: "p4 |"
+
 # Global Config
 mixed-port: 7897
 allow-lan: true
@@ -106,12 +107,12 @@ proxy-groups:
     include-all: true
   - name: 自动选择
     type: url-test
-    proxies: []
+    proxies: [DIRECT]
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     max-failed-times: 5
     include-all: true
 rules:
   - GEOSITE,CN,DIRECT
-  - GEOIP,CN,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
   - MATCH,手动选择
