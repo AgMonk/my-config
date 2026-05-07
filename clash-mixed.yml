@@ -3,37 +3,37 @@ proxy-providers:
     type: http
     path: ./proxy_provider/p1.yaml
     # 订阅 链接
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/02/0-20260201.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/03/0-20260301.yaml
     override:
       additional-prefix: "p1 |"
   2.provider2:
     type: http
     path: ./proxy_provider/p2.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/02/0-20260206.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/03/0-20260306.yaml
     override:
       additional-prefix: "p2 |"
   3.provider3:
     type: http
     path: ./proxy_provider/p3.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/02/0-20260211.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/03/0-20260311.yaml
     override:
       additional-prefix: "p3 |"
   4.provider4:
     type: http
     path: ./proxy_provider/p4.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/02/0-20260216.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/03/0-20260316.yaml
     override:
       additional-prefix: "p4 |"
   5.provider5:
     type: http
     path: ./proxy_provider/p5.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/02/0-20260221.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/03/0-20260321.yaml
     override:
       additional-prefix: "p5 |"
   6.provider6:
     type: http
     path: ./proxy_provider/p6.yaml
-    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/02/0-20260226.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/clashnodeshare/clashnodeshare.github.io/main/uploads/2026/03/0-20260326.yaml
     override:
       additional-prefix: "p6 |"
 
