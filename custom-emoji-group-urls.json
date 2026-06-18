@@ -1,3 +1,6 @@
 [
-  "https://ghfast.top/https://raw.githubusercontent.com/AgMonk/my-config/refs/heads/master/test.json"
+  {
+    "url":"https://ghfast.top/https://raw.githubusercontent.com/AgMonk/my-config/refs/heads/master/test.json",
+    "name":"测试分组"
+  }
 ]
